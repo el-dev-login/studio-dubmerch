@@ -143,9 +143,7 @@ export const productEntry = defineType({
           type: 'object',
           fields: [
             { name: 'retailer', type: 'string', title: 'Retailer Name' },
-            { name: 'type', type: 'string', title: 'Link Type', options: { list: ['direct', 'affiliate'] } },
             { name: 'url', type: 'url', title: 'Purchase URL' },
-            { name: 'price', type: 'number', title: 'Price (optional)' }
           ]
         }
       ]
